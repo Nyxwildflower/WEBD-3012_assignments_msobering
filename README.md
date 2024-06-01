@@ -1,13 +1,9 @@
 # WEBD-3012_assignments_msobering
-This is a repository for building the coding assignments off of each other throughout the course.
+This is a repository for building the coding assignments off of each other throughout this course.
 
 ## Setting up the React App Files
 
 Choose a directory to hold the files for the app and run:
-
-#### `git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git`
-
-`git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git`
 
 ```
 git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git
@@ -15,19 +11,25 @@ git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git
 
 ## Running the Application
 
-Open the Docker Desktop app.
+- 1. Open the Docker Desktop app.
 
-Run this command to run the app in a Docker container.
+- 2. Open the React app folder in VS Code from where you cloned it earlier.
 
-#### `docker-compose -f docker-compose.dev.yml up`
+- 3. Run this command in the VS Code terminal to run the app in a Docker container.
 
-Load 127.0.0.1:7775 on your browser to see the app running.
+```
+docker-compose -f docker-compose.dev.yml up
+```
+
+- 4. Load [127.0.0.1:7775](127.0.0.1:7775) on your browser to see the app running.
 
 ## Additional Information on Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -35,12 +37,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+```
+npm test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
