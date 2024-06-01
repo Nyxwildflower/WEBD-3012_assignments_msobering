@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: sobering_madison_coding_assignment11
+    image: app-dev
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./src:/sobering_madison_site/src
+    ports:
+      - 7775:3000
