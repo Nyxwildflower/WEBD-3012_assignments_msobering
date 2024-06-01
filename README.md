@@ -9,6 +9,14 @@ Choose a directory to hold the files for the app and run:
 
 ### Running the Application
 
+Open the Docker Desktop app.
+
+Run this command to run the app in a Docker container.
+
+### `docker-compose -f docker-compose.dev.yml up`
+
+Load 127.0.0.1:7775 on your browser to see the app running.
+
 ## Additional Information on Available Scripts
 
 In the project directory, you can run:
