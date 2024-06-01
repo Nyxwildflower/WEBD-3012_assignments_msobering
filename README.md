@@ -1,7 +1,15 @@
 # WEBD-3012_assignments_msobering
 This is a repository for building the coding assignments off of each other throughout the course.
 
-## Available Scripts
+### Setting up the React App Files
+
+Choose a directory to hold the files for the app and run:
+
+### `git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git`
+
+### Running the Application
+
+## Additional Information on Available Scripts
 
 In the project directory, you can run:
 
