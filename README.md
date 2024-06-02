@@ -17,12 +17,11 @@ git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git
 
 3. Enter this command in the VS Code terminal to run the app in a Docker container.
 
-   -
 ```
 docker-compose -f docker-compose.dev.yml up
 ```
 
-4. Load [http://localhost:7775](127.0.0.1:7775) in your browser to see the app running.
+4. Load [http://localhost:7775](http://localhost:7775) in your browser to see the app running.
 
 ## Additional Information on Available Scripts
 
