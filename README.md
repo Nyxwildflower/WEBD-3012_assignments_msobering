@@ -21,4 +21,4 @@ git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git
 docker-compose -f docker-compose.dev.yml up
 ```
 
-4. Load [http://localhost:7775](localhost:7775) on your browser to see the app running.
+4. Load [localhost:7775](http://localhost:7775) on your browser to see the app running.
