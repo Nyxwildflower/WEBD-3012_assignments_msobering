@@ -17,7 +17,6 @@ git clone https://github.com/Nyxwildflower/WEBD-3012_assignments_msobering.git
 
 3. Enter this command in the VS Code terminal to run the app in a Docker container.
 
-   -
 ```
 docker-compose -f docker-compose.dev.yml up
 ```
